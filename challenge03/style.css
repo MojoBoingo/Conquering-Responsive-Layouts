@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1440px;
+    display: block;
+  }
+
+.container {
+    width: 100%;
+    background: #23424A;
+    padding: 5rem;
+}
+.container-content {
+    margin: auto 0;
+    max-width: 800px;
+}
+
+.container-content h1 {
+    color: #FFF;
+    font-family: 'Roboto';
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.container-content p {
+    color: rgba(255, 255, 255, 0.85);
+    font-family: 'Roboto', sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    margin-bottom: 2rem;
+}
+
+button {
+    border: none;
+    border-radius: 31.5px;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    background: #38CFD9;
+    color: #072A2D;
+    font-family: 'Roboto', sans-serif; /* i could save time with variables here in regards to font family, but since this is an exercise i'd rather keep it all laid out explicitly */
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%;
+    /* 31px */
+    letter-spacing: 1.05px;
+    text-transform: uppercase;
+}
