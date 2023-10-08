@@ -4,12 +4,35 @@
 
 body {
     margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.3rem;
 }
 
 img {
     max-width: 100%;
+}
+
+h1 {
+    font-family: 'Roboto Light', sans-serif;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.header__text p {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+    color: #824936;
+}
+
+h2 {
+    font-family: 'Playfair Display', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Roboto Regular', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
 }
 
 .container {
@@ -20,4 +43,31 @@ img {
 
 .row {
     display: flex;
+}
+
+
+.section-title {
+    text-align: center;
+    color: #824936;
+}
+
+
+.hero__header {
+    text-align: center;
+    background-color: #F3EED9;
+}
+
+.hero__text {
+    margin-right: 3em;
+    color: #222C2A;
+}
+
+.villain {
+    background-color: #222C2A;
+    color: #F3EED9;
+}
+
+.civilian {
+    background-color: #824936;
+    color: #F3EED9;
 }
