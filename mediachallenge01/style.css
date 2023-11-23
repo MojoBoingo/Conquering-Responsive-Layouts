@@ -203,6 +203,7 @@ header {
         visibility: visible;
         display: flex;
         height: auto;
+        flex-direction: row;
     }
 
     .row {
@@ -228,14 +229,8 @@ header {
     .sidebar {
         width: 32%;
     }
-    
-    header {
-        min-height: 100px;
-    }
 
     .nav__item {
         margin: 0;
-        margin-left: 4em;
     }
-
 }
