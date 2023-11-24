@@ -147,7 +147,7 @@ header {
 .nav {
     visibility: hidden;
     height: 0;
-    position: absolute;
+    position: absolute;   
 }
 
 .nav--visible {
@@ -203,7 +203,8 @@ header {
         visibility: visible;
         display: flex;
         height: auto;
-        flex-direction: row;
+        justify-content: flex-end;
+        flex-wrap: nowrap;
     }
 
     .row {
@@ -232,5 +233,15 @@ header {
 
     .nav__item {
         margin: 0;
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+    }
+
+    .nav__link {
+        margin-left: 1em;
     }
 }
