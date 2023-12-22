@@ -6,3 +6,50 @@ body {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
 }
+
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    background: #A59678;
+    color: white;
+    transition: opacity 250ms ease;  
+    position: absolute;
+    left: 0;
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: .75;
+}
+
+.houdini {
+    width: 50%;
+    position: relative;
+}
+
+.houdini,
+.houdini::before,
+.houdini::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: white;
+}
+
+.houdini::before,
+.houdini::after {
+    content: '';
+    width: 100%;
+}
+
+.houdini::before {
+    transform: translateY(-6px);
+}
+
+.houdini::after {
+    transform: translateY(3px);
+}
